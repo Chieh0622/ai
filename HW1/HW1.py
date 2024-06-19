@@ -85,7 +85,7 @@ def str_fills(fills):       # 將解答轉為字串，以供印出觀察。
         if i % 7 == 0:
             outs.append('\n')
         outs.append(f"{slots[i]}:{c['name']}")
-    return f'height={height(fills):.6f} {" ".join(outs)}\n\n'
+    return f'height={height(fills):.6f} {" ".join(outs)}'
 
 def hillClimbing(x, height, neighbor, max_fail):
     fail = 0
