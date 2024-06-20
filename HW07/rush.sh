@@ -1,1 +1,1 @@
-python -W ignore train.py lenet
+python -W ignore train.py lenetRelu
